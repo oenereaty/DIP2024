@@ -78,3 +78,7 @@ process_image_from_url(image_url)
 | 1    | `Apple___Black_rot`        | 감염된 가지와 과일을 제거하고 구리 기반 살균제를 사용해 예방하세요.                   |
 | 2    | `Apple___Cedar_apple_rust` | 근처의 주니퍼 나무를 제거하거나 방제제를 사용해 증상을 완화할 수 있습니다.            |
 | 3    | `Apple___healthy`          | 사과 나무는 건강합니다. 추가 조치가 필요하지 않습니다!                               |
+
+
+## 5. openCV 이용
+
