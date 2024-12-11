@@ -24,6 +24,7 @@ pip install transformers torch pillow requests
 ## 3. Jupyter Notebook에서 모델 사용하기
 Jupyter Notebook을 실행합니다.
 제공된 `model_directory.zip` 파일을 **Notebook 세션 저장소**에 업로드합니다.
+
 업로드된 ZIP 파일을 다음 코드를 사용해 압축 해제하고 모델을 로드합니다:
 ```python
 import zipfile
