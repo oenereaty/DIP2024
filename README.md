@@ -32,9 +32,8 @@ import zipfile
 from transformers import AutoModelForImageClassification, AutoFeatureExtractor
 
 # ZIP 파일 압축 해제
-zip_path = "model_directory.zip"
-with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-    zip_ref.extractall("./")  # 현재 디렉토리에 압축 해제
+with zipfile.ZipFile('model_directory.zip', 'r') as z:
+    z.extractall('./model_directory')
 
 # 모델 로드
 model_directory = "model_directory"
